@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 400px;
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgb(186, 190, 255), rgb(254, 254, 254));
+    /* border-radius: 16px; */
+}
+.header {
+    height: 50px;
+    padding-top: 15px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.header input {
+    background: transparent;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 16px;
+    outline: none;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.we-detail {
+    height: 350px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.weather-dis {
+    width: 160px;
+    height: 30px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.temp {
+    margin-top: 14px;
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Sarala", sans-serif;
+}
+.temp-img {
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.errMSg {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px;
+}
