@@ -32,7 +32,7 @@ const Home = () => {
           <div className="search-icon" onClick={() => { Search() }} >
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
-          <div className="time">{time.getHours()}:{time.getMinutes()}</div>
+          <div className="time">{time.getHours()-12}:{time.getMinutes()}</div>
         </div>
         {!city ? (
           <p className='errMSg'>City Not Found</p>
